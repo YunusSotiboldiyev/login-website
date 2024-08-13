@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 4-uyga vazifa</title>
+</head>
+
+<body>
+    <form action="https://echo.htmlacademy.ru" method="post">
+        <h3>Astrum kurslariga ro'yhatdan o'tish</h3>
+        <label for="fname"><b>Ismingiz:</b></label> <br>
+        <input type="text" id="fname" name="Ismi" required> <br><br>
+        <label for="lname"><b>Familiyangiz:</b></label> <br>
+        <input type="text" id="lname" name="Familiyasi" required> <br><br>
+        <label for="age"><b>Yoshingiz:</b></label> <br>
+        <input type="number" id="age" name="Yosh" min="16" required> <br><br>
+        <h2>Nimalarni bilasiz</h2>
+        <input type="checkbox" id="html" name="HTML">
+        <label for="html">HTML</label> <br>
+        <input type="checkbox" id="css" name="CSS">
+        <label for="css">CSS</label> <br>
+        <input type="checkbox" id="sass" name="SASS">
+        <label for="sass">SASS</label> <br>
+        <input type="checkbox" id="bootstrap" name="Bootstrap">
+        <label for="bootstrap">Bootstrap</label> <br>
+        <input type="checkbox" id="git" name="GIT">
+        <label for="git">Git</label> <br>
+        <h2>Qaysi dasturlash tillaridan xabaringiz bor</h2>
+        <input type="checkbox" id="c" name="C">
+        <label for="c">C</label> <br>
+        <input type="checkbox" id="c++" name="C++">
+        <label for="c++">C++</label> <br>
+        <input type="checkbox" id="c#" name="C#">
+        <label for="c#">C#</label> <br>
+        <input type="checkbox" id="java" name="Java">
+        <label for="java">Java</label> <br>
+        <input type="checkbox" id="phyton" name="Phyton">
+        <label for="phyton">Phyton</label> <br>
+        <input type="checkbox" id="javascript" name="Javascript">
+        <label for="javascript">Javascript</label> <br>
+        <h2>Qaysi kursda o'qimoqchisiz</h2>
+        <label for="Kurslar"></label>
+        <select name="Kurslar" id="Kurslar" required>
+            <option value="Frontend React js">Frontend React js</option>
+            <option value="Backend PHP">Backend PHP</option>
+            <option value="Backend C#">Backend C#</option>
+            <option value="Backend Node js">Backend Node js</option>
+            <option value="Backend Phyton Jango">Backend Phyton Jango</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Java">Java</option>
+        </select>
+        <h2>Qaysi kunlari kelasiz</h2>
+        <input type="radio" id="kun1" name="kun2" required>
+        <label for="toq-kun">Dushanba/Chorshanba/Juma</label><br>
+        <input type="radio" id="kun1" name="kun1" required>
+        <label for="juft-kun">Seshanba/Payshanba/Shanba</label><br>
+        <h2>Qaysi vaqitda kelasiz</h2>
+        <input type="radio" id="time1" name="time" required>
+        <label for="time2">10:00 / 11:30</label> <br>
+        <input type="radio" id="time1" name="time" required>
+        <label for="time1">15:30 / 17:00</label> <br><br>
+       <p> O'zingiz haqingizda qisqa ma'lumot bering</p><br>
+        <textarea name="xabr" id="xabar" cols="33" rows="10" placeholder="qiziqishingiz va hobbiyingiz"></textarea><br><br>
+        <label for="file">Rasmingizni joylang</label>
+        <input type="file" id="file" name="Ma'lumot"> <br><br>
+        <input type="submit" value="Jo'natish">
+    </form>
+</body>
+
+</html>
